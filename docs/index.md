@@ -1,10 +1,10 @@
 ###
 
-- Bita Massoudi
-- 11/28/2022
-- Foundations of Databses and SQL Programming
-- Assignment07
-- bitamass/DBFoundations-Module07 (github.com)
+ Bita Massoudi
+ 11/28/2022
+ Foundations of Databses and SQL Programming
+ Assignment07
+ bitamass/DBFoundations-Module07 (github.com)
 
 **Introduction:** 
 A user-defined function (UDF) in SQL Server is a programming construct that accepts parameters, uses these parameteres and returns a type of result. 
@@ -14,7 +14,9 @@ SQL UDF can provide certain advantages. One such advantage is that the same logi
 
 **Differences between Scalar, Inline, and Multi-Statement Functions:**
 Scalar Functions: A scalar function accepts any number of parameters and returns one value. The term scalar differentiates a single, "flat" value from more complex structured values, such as arrays or result sets.  This pattern is much like that of traditional functions written in common programming language.
+
 Inline Table-Valued Functions: Similar to a view, this type of function returns a result set. However, unlike a view, functions can accept parameters. The inline function's syntax is simple. In the function definition, the return type is set to a table. A return statement is used with a select query in parenthesis.
+
 Multi-Statement Table-Valued Functions: Multi-Statement functions can be used to do some unique things outside the context of a standard SELECT statement. This type of function returns a table-type result set, but the table is explicitly constructed in script. This can be used to accomplish one of two things: either to process some very unique logic by assembling a virtual table, or to duplicate the functionality of an inline function in a more verbose and compiled way. 
 
 **Conclusion:**
